@@ -169,6 +169,15 @@ with tab_modelo:
     st.subheader('Modelos testados e performance')
 
     st.subheader('Randon Forest - O MODELO ESCOLHIDO')
+    st.info("""
+    O modelo Random Forest foi selecionado por oferecer a melhor combinação de estabilidade, desempenho e interpretabilidade. A métrica **Recall** foi o fator decisivo, garantindo maior eficácia na identificação da classe minoritária:\n
+    * Recall da Classe Minoritária (SEM VÍTIMAS): 0.62, significativamente 
+    superior ao 0.09 do XGBoost.
+    * Vantagens Adicionais: Menor *overfitting* e maior facilidade de 
+    interpretação do modelo.
+    * Acurácia Geral: 0.79, indicando uma boa performance geral.
+    """)
+
     st.image(f'2randonforest.png')
 
     st.subheader('XGBoost')
