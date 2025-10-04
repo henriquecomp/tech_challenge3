@@ -83,7 +83,7 @@ with tab_descritivo:
 
     st.subheader('Como são as correlações entre as variáveis?')
     st.info("""
-    * As correlações entre as variáveis são muito baixas. (Gerar o gráfico para mostrar)
+    * As correlações entre as variáveis são muito baixas.
     """)
 
     st.subheader('Existe sazonalidade?')
@@ -253,7 +253,7 @@ with tab_previsao:
                 
                 # Exibir o resultado com destaque
                 st.subheader('Resultado da Previsão:')
-                if resultado[0] == 'COM VÍTIMAS':
+                if resultado[0] == 'COM VITIMAS':
                     st.error(f'⚠️ A previsão é: **{resultado[0]}**')
                 else:
                     st.success(f'✅ A previsão é: **{resultado[0]}**')
