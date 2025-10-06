@@ -175,7 +175,7 @@ with tab_modelo:
     superior ao 0.09 do XGBoost.
     * Vantagens Adicionais: Menor *overfitting* e maior facilidade de 
     interpretação do modelo.
-    * Acurácia Geral: 0.79, indicando uma boa performance geral.
+    * Acurácia Geral: 0.76, indicando uma boa performance geral.
     """)
 
     st.image(f'2randonforest.png')
